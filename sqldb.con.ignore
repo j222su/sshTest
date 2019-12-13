@@ -1,0 +1,9 @@
+<?php
+define('HOST','_____');
+define('USER','_____');
+define('PASS','_____');
+define('DB','_____');
+
+$con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
+
+?>
